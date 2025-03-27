@@ -1,0 +1,61 @@
+header{
+    color: white;
+    background-color: black;
+}
+header h1{
+    padding-left:430px;
+    background-image:url("imagenes/bmwlogo.webp");
+    background-size: cover;
+    background-position: center;
+}
+main{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin:20px;
+}
+main article {
+    display: block;
+    padding: 5px;
+    background-color: lightgray;
+    outline: auto;
+    box-shadow: 10px 10px 10px gray;
+}
+main h1{
+    border-top: 7px rgb(3, 3, 172) solid;
+    border-left: 7px lightskyblue solid;
+    border-right: 7px red solid;
+    border-bottom: 7px gray solid;
+    text-align:center;
+    margin-left:200px;
+    margin-right:200px;
+    box-shadow: 10px 10px 10px gray;
+}
+article p{
+    font-size:20px;
+}
+main article a{
+    display:block;
+    color:black;
+    font-size:20px;
+}
+footer{
+    padding: 5px;
+    background-color: lightgray;
+    outline: auto;
+    box-shadow: 10px 10px 10px gray;
+}
+footer a{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color:black;
+}
+details{
+    font-size: 20px;
+    text-decoration: underline black;
+}
+details p{
+    font-size: 18px;
+}
